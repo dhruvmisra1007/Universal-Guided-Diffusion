@@ -4,14 +4,18 @@ First we work on the stable diffusion guided model.
 
 cd D:\Courses\7th sem courses\EE798R\End-Term Project\Code Implementation\Universal-Guided-Diffusion\stable-diffusion-guided
 
-...
 conda env create -f environment.yaml (No need to run again if you have already done so once)
+
 conda activate ldm
+
 conda install pytorch==2.2.2 torchvision==0.17.2 Pillow==10.2.0 cudatoolkit=11.3 -c pytorch -c nvidia (No need to run again once you have made the installations, true for the three statements below as well)
+
 pip install GPUtil
+
 pip install blobfile
+
 pip install facenet-pytorch
-...
+
 
 # Face Recognition
 
