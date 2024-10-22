@@ -1,12 +1,3 @@
-conda env create -f environment.yaml (No need to run again if you have already done so once)
-conda activate ldm
-conda install pytorch==2.2.2 torchvision==0.17.2 Pillow==10.2.0 cudatoolkit=11.3 -c pytorch -c nvidia (No need to run again once you have made the installations, true for the three statements below as well)
-pip install GPUtil
-pip install blobfile
-pip install facenet-pytorch
-                                                                                                       
-Instead if you dont want to create a conda environment like when I tried running on colab/kaggle, download these given below. However, it runs into a version mismatch for typing-extensions and a few other libraries. I tried various combinations by upgrading and downgrading other libraries but that resulted in the code malfunctioning. 
-                                                                                                       
 absl-py==2.1.0
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.9
