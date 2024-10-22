@@ -4,6 +4,7 @@ First we work on the stable diffusion guided model.
 
 cd D:\Courses\7th sem courses\EE798R\End-Term Project\Code Implementation\Universal-Guided-Diffusion\stable-diffusion-guided
 
+...
 conda env create -f environment.yaml (No need to run again if you have already done so once)
 
 conda activate ldm
@@ -15,6 +16,7 @@ pip install GPUtil
 pip install blobfile
 
 pip install facenet-pytorch
+...
 
 # Face Recognition
 
